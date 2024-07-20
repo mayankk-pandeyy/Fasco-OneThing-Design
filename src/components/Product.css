@@ -1,0 +1,16 @@
+/* src/BackgroundDiv.css */
+.background-div {
+    position: relative;
+  }
+  
+  .background-div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150px;
+    width: 0;
+    height: 0;
+    border-bottom: 400px solid #DADADA; /* Adjust the height as needed */
+    border-left: 150px solid transparent; /* Adjust the width as needed */
+  }
+  

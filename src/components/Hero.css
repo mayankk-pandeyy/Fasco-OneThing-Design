@@ -1,0 +1,19 @@
+.sale{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #484848;
+}
+.salefloatup{
+    animation: float 2.5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%{
+        transform: translate(0, 0);
+    }
+    50%{
+        transform: translate(0, -10px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
